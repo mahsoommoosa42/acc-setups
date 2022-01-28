@@ -1,0 +1,86 @@
+{
+	"carName": "mclaren_720s_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 52, 65, 51, 61 ]
+		},
+		"alignment":
+		{
+			"camber": [ 2, 2, 0, 0 ],
+			"toe": [ 45, 45, 20, 20 ],
+			"staticCamber": [ -4.4034843444824219, -4.3967785835266113, -4.3532843589782715, -4.345822811126709 ],
+			"toeOutLinear": [ 0.0014538904651999474, 0.0014538080431520939, 0.00039951113285496831, 0.00039946124888956547 ],
+			"casterLF": 11,
+			"casterRF": 11,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 1,
+			"tC2": 6,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 78,
+			"nPitStops": 0,
+			"tyreSet": 5,
+			"frontBrakePadCompound": 1,
+			"rearBrakePadCompound": 1,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 56, 63, 50, 57 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.5799305438995361
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 8,
+			"aRBRear": 8,
+			"wheelRate": [ 3, 3, 4, 4 ],
+			"bumpStopRateUp": [ 7, 7, 0, 0 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 4, 4, 50, 50 ],
+			"brakeTorque": 20,
+			"brakeBias": 30
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 25, 25, 18, 18 ],
+			"bumpFast": [ 18, 18, 31, 31 ],
+			"reboundSlow": [ 15, 15, 23, 23 ],
+			"reboundFast": [ 24, 24, 39, 39 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 1, 6, 8, 18 ],
+			"rodLength": [ 58.529136657714844, 58.529136657714844, 38.259571075439453, 38.259571075439453 ],
+			"splitter": 0,
+			"rearWing": 7,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 2
+		}
+	},
+	"trackBopType": 28
+}

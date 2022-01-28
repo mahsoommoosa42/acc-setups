@@ -1,0 +1,86 @@
+{
+	"carName": "ferrari_488_gt3_evo",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 61, 55, 62, 57 ]
+		},
+		"alignment":
+		{
+			"camber": [ 12, 12, 18, 18 ],
+			"toe": [ 32, 32, 48, 48 ],
+			"staticCamber": [ -2.8562982082366943, -2.8596868515014648, -2.0971693992614746, -2.0996837615966797 ],
+			"toeOutLinear": [ 0.00092921551549807191, 0.00092919950839132071, -0.00044853321742266417, -0.00044893406447954476 ],
+			"casterLF": 46,
+			"casterRF": 46,
+			"steerRatio": 4
+		},
+		"electronics":
+		{
+			"tC1": 5,
+			"tC2": 5,
+			"abs": 5,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 7
+		},
+		"strategy":
+		{
+			"fuel": 58,
+			"nPitStops": 0,
+			"tyreSet": 8,
+			"frontBrakePadCompound": 1,
+			"rearBrakePadCompound": 1,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 51, 67, 51, 63 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.1934418678283691
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 35,
+			"aRBRear": 9,
+			"wheelRate": [ 8, 8, 3, 3 ],
+			"bumpStopRateUp": [ 4, 4, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 1, 1, 50, 50 ],
+			"brakeTorque": 20,
+			"brakeBias": 53
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 5, 5, 2, 2 ],
+			"bumpFast": [ 6, 6, 7, 7 ],
+			"reboundSlow": [ 5, 5, 8, 8 ],
+			"reboundFast": [ 8, 8, 8, 8 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 6, 18 ],
+			"rodLength": [ -35.910728454589844, -35.910728454589844, -19.391599655151367, -19.391599655151367 ],
+			"splitter": 0,
+			"rearWing": 11,
+			"brakeDuct": [ 4, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 8
+		}
+	},
+	"trackBopType": 15
+}
