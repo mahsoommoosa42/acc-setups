@@ -5,32 +5,32 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 60, 59, 62, 61 ]
+			"tyrePressure": [ 58, 72, 56, 67 ]
 		},
 		"alignment":
 		{
-			"camber": [ 0, 0, 0, 0 ],
+			"camber": [ 2, 2, 3, 3 ],
 			"toe": [ 0, 0, 0, 0 ],
-			"staticCamber": [ -3.1230595111846924, -3.1235213279724121, -2.4981009960174561, -2.4989216327667236 ],
-			"toeOutLinear": [ 0.0019828157965093851, 0.0019828183576464653, -0.0014690755633637309, -0.0014690969837829471 ],
-			"casterLF": 52,
-			"casterRF": 52,
+			"staticCamber": [ -3.0217556953430176, -3.0154588222503662, -2.1771657466888428, -2.1998429298400879 ],
+			"toeOutLinear": [ 0.0019681360572576523, 0.0019681374542415142, -0.0014680686872452497, -0.0014775819145143032 ],
+			"casterLF": 48,
+			"casterRF": 48,
 			"steerRatio": 4
 		},
 		"electronics":
 		{
-			"tC1": 5,
-			"tC2": 5,
-			"abs": 4,
+			"tC1": 7,
+			"tC2": 2,
+			"abs": 3,
 			"eCUMap": 0,
 			"fuelMix": 0,
 			"telemetryLaps": 99
 		},
 		"strategy":
 		{
-			"fuel": 11,
+			"fuel": 58,
 			"nPitStops": 0,
-			"tyreSet": 3,
+			"tyreSet": 7,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.6099998950958252
+			"fuelPerLap": 2.2712440490722656
 		}
 	},
 	"advancedSetup":
@@ -373,9 +373,9 @@
 		"mechanicalBalance":
 		{
 			"aRBFront": 28,
-			"aRBRear": 34,
-			"wheelRate": [ 8, 8, 3, 3 ],
-			"bumpStopRateUp": [ 7, 7, 5, 5 ],
+			"aRBRear": 15,
+			"wheelRate": [ 7, 7, 6, 6 ],
+			"bumpStopRateUp": [ 3, 3, 5, 5 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 0, 0, 15, 15 ],
 			"brakeTorque": 20,
@@ -385,21 +385,21 @@
 		{
 			"bumpSlow": [ 6, 6, 3, 3 ],
 			"bumpFast": [ 3, 3, 1, 1 ],
-			"reboundSlow": [ 3, 3, 7, 7 ],
+			"reboundSlow": [ 5, 5, 6, 6 ],
 			"reboundFast": [ 7, 7, 2, 2 ]
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 6, 13, 18 ],
-			"rodLength": [ -36.214794158935547, -36.214794158935547, -13.015011787414551, -13.015011787414551 ],
+			"rideHeight": [ 4, 6, 13, 18 ],
+			"rodLength": [ -31.147060394287109, -31.147060394287109, -17.499507904052734, -17.499507904052734 ],
 			"splitter": 0,
 			"rearWing": 14,
-			"brakeDuct": [ 4, 4 ]
+			"brakeDuct": [ 3, 2 ]
 		},
 		"drivetrain":
 		{
 			"preload": 28
 		}
 	},
-	"trackBopType": 44
+	"trackBopType": 36
 }
