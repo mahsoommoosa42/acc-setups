@@ -5,16 +5,16 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 51, 68, 53, 64 ]
+			"tyrePressure": [ 48, 58, 48, 57 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 0, 0, 0, 0 ],
-			"staticCamber": [ -3.1308863162994385, -3.1220023632049561, -2.5037686824798584, -2.4953129291534424 ],
-			"toeOutLinear": [ 0.0019918754696846008, 0.0019918757025152445, -0.0014687211951240897, -0.0014687009388580918 ],
-			"casterLF": 49,
-			"casterRF": 49,
+			"staticCamber": [ -3.1563179492950439, -3.1499800682067871, -2.475752592086792, -2.4387781620025635 ],
+			"toeOutLinear": [ 0.0019879660103470087, 0.0019879648461937904, -0.0014884060947224498, -0.0014794347807765007 ],
+			"casterLF": 48,
+			"casterRF": 48,
 			"steerRatio": 4
 		},
 		"electronics":
@@ -24,13 +24,13 @@
 			"abs": 4,
 			"eCUMap": 0,
 			"fuelMix": 0,
-			"telemetryLaps": 7
+			"telemetryLaps": 29
 		},
 		"strategy":
 		{
-			"fuel": 10,
+			"fuel": 14,
 			"nPitStops": 0,
-			"tyreSet": 2,
+			"tyreSet": 6,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.8556342124938965
+			"fuelPerLap": 3.3837332725524902
 		}
 	},
 	"advancedSetup":
@@ -374,12 +374,12 @@
 		{
 			"aRBFront": 30,
 			"aRBRear": 15,
-			"wheelRate": [ 7, 7, 6, 6 ],
-			"bumpStopRateUp": [ 5, 5, 22, 22 ],
+			"wheelRate": [ 6, 6, 6, 6 ],
+			"bumpStopRateUp": [ 3, 3, 22, 22 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 0, 0, 15, 15 ],
 			"brakeTorque": 20,
-			"brakeBias": 37
+			"brakeBias": 36
 		},
 		"dampers":
 		{
@@ -390,8 +390,8 @@
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 6, 13, 18 ],
-			"rodLength": [ -34.312847137451172, -34.312847137451172, -17.15765380859375, -17.15765380859375 ],
+			"rideHeight": [ 1, 6, 11, 18 ],
+			"rodLength": [ -31.637903213500977, -31.637903213500977, -18.904186248779297, -18.904186248779297 ],
 			"splitter": 0,
 			"rearWing": 14,
 			"brakeDuct": [ 4, 4 ]
@@ -401,5 +401,5 @@
 			"preload": 28
 		}
 	},
-	"trackBopType": 35
+	"trackBopType": 27
 }
